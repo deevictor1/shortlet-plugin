@@ -1,0 +1,80 @@
+# WordPress Core (optional - you may want to track this)
+# Uncomment if you want to exclude WordPress core
+# wp-admin/
+# wp-includes/
+# wp-*.php
+# xmlrpc.php
+# license.txt
+# readme.html
+
+# WordPress Configuration (IMPORTANT - contains sensitive data)
+wp-config.php
+
+# WordPress Uploads
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# WordPress Debug Log
+wp-content/debug.log
+
+# WordPress Cache
+wp-content/cache/
+wp-content/cache/*
+!wp-content/cache/.htaccess
+
+# WordPress Transients
+wp-content/transient/
+
+# WordPress Multisite
+wp-content/blogs.dir/
+wp-content/blogs.dir/*
+!wp-content/blogs.dir/.htaccess
+
+# Plugins (exclude third-party, keep custom)
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+wp-content/plugins/*.zip
+
+# Themes (exclude default, keep custom if any)
+# wp-content/themes/twenty*/
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+
